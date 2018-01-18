@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.warihana.ghesecurity.Dashboard">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Logout"
+                android:textSize="8sp"
+                android:background="@null"
+                android:layout_gravity="end"
+                android:id="@+id/btnlogout"/>
+
+            <TextView
+                android:layout_marginTop="-40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="REPORT A CRIME"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="@color/green"
+                android:id="@+id/txtheader"/>
+
+            <EditText
+                android:id="@+id/txtdescription"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:inputType="textMultiLine"
+                android:overScrollMode="always"
+                android:scrollbarStyle="insideInset"
+                android:scrollbars="vertical"
+                android:hint="Description of event or perpetrator "
+                android:background="@drawable/back"
+                android:paddingLeft="10dp"/>
+
+            <Spinner
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spCrimeType"
+                android:spinnerMode="dialog"
+                android:prompt="@string/country_prompt"
+                style="@android:style/Widget.Holo.Light.Spinner"
+                android:entries="@array/crime_type"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Picture:"
+                    android:textSize="20sp"
+                    android:id="@+id/txtlabel"
+                    android:layout_marginLeft="5dp"/>
+                <ImageButton
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/camera"
+                    android:background="@null"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/btncamera"/>
+                <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GALLERY"
+                    android:background="@color/green"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="40dp"
+                    android:id="@+id/btnBrowse"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:id="@+id/photo_image"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:src="@drawable/driving"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="REPORT TO AUTHORITIES"
+                android:background="@color/green"
+                android:layout_marginTop="10dp"
+                android:id="@+id/btnreport"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "454267174889",
+    "firebase_url": "https://ghesecurity.firebaseio.com",
+    "project_id": "ghesecurity",
+    "storage_bucket": "ghesecurity.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454267174889:android:1efdf4fd82ec47d1",
+        "android_client_info": {
+          "package_name": "com.example.warihana.ghesecurity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454267174889-hcu6mvhtpln0pcijmkcbpnh36jsq1icq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.warihana.ghesecurity",
+            "certificate_hash": "0cb70b7b5196c1f21903b33433092366bd08cbf5"
+          }
+        },
+        {
+          "client_id": "454267174889-1ija6t0f95etgd2ri32hln80fh5t6vmo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlhAxrIUAyV-J7dJb4BlD-nii_-jEC2yo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454267174889-1ija6t0f95etgd2ri32hln80fh5t6vmo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

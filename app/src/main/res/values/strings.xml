@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GHeSecurity</string>
+    <string name="country_prompt">Choose Crime Category</string>
+
+    <string-array name="crime_type">
+        <item>Reckless driving</item>
+        <item>Robbery</item>
+        <item>Violence</item>
+        <item>Stolen Vehicle</item>
+    </string-array>
+
+    <string name="login"><a href="Login.class" target="_top">Login</a></string>
+</resources>
